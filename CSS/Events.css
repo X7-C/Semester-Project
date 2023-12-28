@@ -1,4 +1,4 @@
-@import url(CSS/Header+Footer.css);
+@import url(/CSS/Header+Footer.css);
 
 #headSelected {
     text-decoration: underline;
@@ -321,3 +321,5 @@ h5 {
         width: 90%;
     }
 }
+
+
