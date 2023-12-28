@@ -1,0 +1,98 @@
+#headSelected {
+    text-decoration: underline;
+}
+
+.contactImageSingle {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    position: relative;
+}
+
+#contactImage {
+    height: 15%;
+    max-height: 270px;
+    width: 91vw;  
+    max-width: 1190px; 
+    min-width: 280px;  
+    object-fit: cover; 
+    border-radius: 20px; 
+    margin: 0 auto;
+}
+
+.contactImageText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.firstInfoContainer {
+    min-height: 26vh;
+    width: 90vw;
+    max-width: 1190px;
+    background-color: #1A1A1A;
+    margin: 2rem auto;
+    position: relative;
+    padding: 20px 2%;
+    text-align: left;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    border-radius: 20px;
+    overflow-wrap: break-word;
+}
+
+h1 {
+    color: rgb(0, 187, 255);
+}
+
+#hourLinkTag {
+    text-decoration: underline;
+}
+
+.inputLabelSquare {
+    min-height: 26vh;
+    width: 90vw;
+    max-width: 1190px;
+    background-color: #1A1A1A;
+    background: url(/Images/images/lab-512503_1920.jpg) center no-repeat;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    border-radius: 20px;
+}
+
+.inputLabelSquare input {
+    width: 150px;
+    min-width: 23%;
+    height: 1.7rem;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.inputLabelSquare textarea {
+    width: 175px;
+    min-width: 47%;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.inputLabelSquare input[type="submit"] {
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#Selected {
+    color: chocolate;
+}
