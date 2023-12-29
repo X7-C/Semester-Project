@@ -66,7 +66,7 @@ h1 {
     width: 90vw;
     max-width: 1190px;
     background-color: #1A1A1A;
-    background: url(/Images/images/lab-512503_1920.jpg) center no-repeat;
+    background: url(Images/images/lab-512503_1920.jpg) center no-repeat;
     margin: 2rem auto;
     display: flex;
     flex-direction: column;
