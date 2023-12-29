@@ -27,9 +27,9 @@ left: 50%;
 transform: translate(-50%, -50%);
 font-size: 2em;
 font-weight: bold;
-text-shadow: 1px 1px 2px rgb(0, 0, 0);
+text-shadow: 1px 1px 2px rgb(255, 255, 255);
 text-align: center;
-color: white;
+color: rgb(0, 0, 0);
 }
 
 #image2 {
@@ -110,6 +110,19 @@ color: white;
 
 .squareBoxCenter {
     text-align: center;
+}
+
+#Hours {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
 }
 
 

@@ -225,6 +225,7 @@ h5 {
 
 #hourLinkTag {
     text-decoration: underline;
+    color: rgb(196, 82, 0);
 }
 
 .getInvolvedImage {
@@ -253,8 +254,9 @@ h5 {
     transform: translate(-50%, -50%);
     font-size: 2em;
     font-weight: bold;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
-    color: rgb(252, 252, 252);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 .lowRowCode {
